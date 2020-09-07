@@ -34,3 +34,18 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 `;
+
+export const NavLink = styled.span`
+  & + span {
+    margin-left: 32px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #efefef;
+  }
+`;
+
+export const NavBar = styled.nav`
+  display: flex;
+`;
